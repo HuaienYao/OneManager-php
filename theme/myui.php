@@ -56,7 +56,7 @@
 
 <body>
 <script>document.body.hidden = 'hidden';</script>
-<script src="//github.com/HuaienYao/OneManager-php/blob/master/theme/resource/logi.js"></script>
+<script src="//cdn.jsdelivr.net/gh/HuaienYao/CDN@0.01/onemanager-php/js/logi.js"></script>
     <div style="padding:1px">
 <?php
     if (getConfig('admin')!='') if (!$_SERVER['admin']) {
