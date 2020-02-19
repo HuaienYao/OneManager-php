@@ -34,6 +34,7 @@ const FONT_PINGYONG = HEREDOC(() => {/*
  */});
 
 // 雨伞背景
+/*
 const ADD_UMBRELLA_BACKGROUND = (callback) => {
     const SCRIPT = document.createElement('script');
     SCRIPT.src = '//s0.pstatp.com/cdn/expire-1-M/canvas-nest.js/2.0.4/canvas-nest.js';
@@ -42,6 +43,7 @@ const ADD_UMBRELLA_BACKGROUND = (callback) => {
     LOADED(SCRIPT, callback);
     document.body.appendChild(SCRIPT);
 };
+*/
 
 const ADD_IMGAGE_BACKGROUND = () => {
     const IMAGE = 'url(//img12.360buyimg.com/img/jfs/t1/56992/25/15607/359235/5dc93624E8223dc25/41cac0ada12d3ad9.jpg)'
