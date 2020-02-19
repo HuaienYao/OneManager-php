@@ -33,17 +33,6 @@ const FONT_PINGYONG = HEREDOC(() => {/*
     </style>
  */});
 
-// 雨伞背景
-/*
-const ADD_UMBRELLA_BACKGROUND = (callback) => {
-    const SCRIPT = document.createElement('script');
-    SCRIPT.src = '//s0.pstatp.com/cdn/expire-1-M/canvas-nest.js/2.0.4/canvas-nest.js';
-    SCRIPT.opacity = '0.1';
-    SCRIPT.count = '10';
-    LOADED(SCRIPT, callback);
-    document.body.appendChild(SCRIPT);
-};
-*/
 
 const ADD_IMGAGE_BACKGROUND = () => {
     const IMAGE = 'url(//github.com/HuaienYao/OneManager-php/blob/master/theme/resource/backgroud.jpg)'
