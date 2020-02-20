@@ -492,13 +492,17 @@
 	</div>
 <?php   }
     } ?>
-    <font style="text-align:center;color:#525252><?php echo date("Y-m-d H:i:s")." ".getconstStr('Week')[date("w")]." ".$_SERVER['REMOTE_ADDR'];?></font>
 
     <footer style="text-align:center;color:#525252;>
-       <?php echo date("Y-m-d H:i:s")." ".getconstStr('Week')[date("w")]." ".$_SERVER['REMOTE_ADDR'];?>
+       <font color="#f7f7f9"><?php echo date("Y-m-d H:i:s")." ".getconstStr('Week')[date("w")]." ".$_SERVER['REMOTE_ADDR'];?></font>
        <p>Powered by <a href="https://huaien.co/" target="_blank">Wyane`s Blog</a>. Since 2010.</p>
     </footer>
+
 </body>
+    <footer style="text-align:center;color:#525252;>
+       <p>Powered by <a href="https://huaien.co/" target="_blank">Wyane`s Blog</a>. Since 2010.</p>
+    </footer>
+
 
 
 <?php if ($head||$readme) { ?><link rel="stylesheet" href="//unpkg.zhimg.com/github-markdown-css@3.0.1/github-markdown.css">
