@@ -38,7 +38,7 @@
         .operate{display:inline-table;margin:0;list-style:none;}
         .operate ion-icon{vertical-align:bottom}
         .operate ul{position:absolute;display:none;background:#fffaaa;border:0px #f7f7f7 solid;border-radius:5px;margin:-7px 0 0 0;padding:0 7px;color:#205D67;z-index:1;}
-        .operate:hover ul{position:fixed;display:inline-table;}
+        .operate:hover ul{position:relative;display:contents;}
         .operate ul li{padding:7px;list-style:none;display:inline-table;}
         .operate ul li ion-icon{vertical-align:bottom}
 <?php } ?>
