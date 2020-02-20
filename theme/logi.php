@@ -11,6 +11,7 @@
     <link rel="shortcut icon" href="<?php echo $_SERVER['base_path'];?>favicon.ico" type="image/x-icon" />
     <link href="https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
     <style type="text/css">
+	element{font-family:'ZCOOL KuaiLe'}
 	body{font-family:'ZCOOL KuaiLe',Helvetica,Arial,sans-serif;font-size:16px;line-height:1em;background-color:#f7f7f9;color:#000}
         button,upload_file,input:focus,textarea:focus {outline: none;font-family:'ZCOOL KuaiLe',Helvetica,Arial,sans-serif;font-size:16px;line-height:1em;background-color:#f7f7f9;color:#000}
 	a{color:#24292e;cursor:pointer;text-decoration:none}
@@ -42,7 +43,7 @@
         .operate ul li{padding:7px;list-style:none;display:inline-table;}
         .operate ul li ion-icon{vertical-align:bottom}
 <?php } ?>
-        .operatediv{position:absolute;border:1px #CCCCCC;opacity:0.2;background-color:#f7f7f9;z-index:2;}
+        .operatediv{position:absolute;border:1px #CCCCCC;opacity:0.9;background-color:#f7f7f9;z-index:2;}
         .operatediv div{margin:16px}
         .operatediv_close{position:absolute;right:3px;top:3px;}
         .readme{padding:8px;background-color:#fff;}
