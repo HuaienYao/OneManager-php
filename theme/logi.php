@@ -38,11 +38,11 @@
         .operate{display:inline-table;margin:0;list-style:none;}
         .operate ion-icon{vertical-align:bottom}
         .operate ul{position:absolute;display:none;background:#fffaaa;border:0px #f7f7f7 solid;border-radius:5px;margin:-7px 0 0 0;padding:0 7px;color:#205D67;z-index:1;}
-        .operate:hover ul{position:absolute;display:inline-table;}
+        .operate:hover ul{position:fixed;display:inline-table;}
         .operate ul li{padding:7px;list-style:none;display:inline-table;}
         .operate ul li ion-icon{vertical-align:bottom}
 <?php } ?>
-        .operatediv{position:absolute;border:1px #CCCCCC;opacity:0.6;background-color:#FFFFCC;z-index:2;}
+        .operatediv{position:absolute;border:1px #CCCCCC;opacity:0.2;background-color:#f7f7f9;z-index:2;}
         .operatediv div{margin:16px}
         .operatediv_close{position:absolute;right:3px;top:3px;}
         .readme{padding:8px;background-color:#fff;}
