@@ -11,7 +11,7 @@
     <link rel="shortcut icon" href="<?php echo $_SERVER['base_disk_path'];?>favicon.ico" type="image/x-icon" />
     <link href="https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
     <style type="text/css">
-        body{font-family:'ZCOOL KuaiLe',Helvetica,Arial,sans-serif;font-size:14px;line-height:1em;background-color:#f7f7f9;color:#000}
+        body{font-family:'ZCOOL KuaiLe',Helvetica,Arial,sans-serif;font-size:16px;line-height:1em;background-color:#f7f7f9;color:#000}
         button,upload_file,input:focus,textarea:focus {outline: none;font-family:'ZCOOL KuaiLe',Helvetica,Arial,sans-serif;font-size:16px;line-height:1em;background-color:#f7f7f9;color:#000}
         a{color:#24292e;cursor:pointer;text-decoration:none}
         a:hover{color:#24292e}
