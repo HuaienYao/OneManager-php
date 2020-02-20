@@ -493,11 +493,12 @@
 	</div>
 <?php   }
     } ?>
-    <footer>
-	<?php echo date("Y-m-d H:i:s")." ".getconstStr('Week')[date("w")]." ".$_SERVER['REMOTE_ADDR'];?> <br>
-	<p>Powered by <a href="https://huaien.co/">Wyane`s Blog</a>. Since 2010.</p>	
-    </footer>
 </body>
+<footer>
+       <p><?php echo date("Y-m-d H:i:s")." ".getconstStr('Week')[date("w")]." ".$_SERVER['REMOTE_ADDR'];?></p>
+       <p>Powered by <a href="https://huaien.co/" target="_blank">Wyane`s Blog</a>. Since 2010.</p>
+</footer>
+
 
 <?php if ($head||$readme) { ?><link rel="stylesheet" href="//unpkg.zhimg.com/github-markdown-css@3.0.1/github-markdown.css">
 <script type="text/javascript" src="//unpkg.zhimg.com/marked@0.6.2/marked.min.js"></script><?php } ?>
