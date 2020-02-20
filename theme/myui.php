@@ -493,8 +493,8 @@
 	</div>
 <?php   }
     } ?>
-    <footer style="text-align:center;color:#f7f7f9>
-       <p><?php echo date("Y-m-d H:i:s")." ".getconstStr('Week')[date("w")]." ".$_SERVER['REMOTE_ADDR'];?></p>
+    <footer style="text-align:center;color:#f7f7f9;>
+       <?php echo date("Y-m-d H:i:s")." ".getconstStr('Week')[date("w")]." ".$_SERVER['REMOTE_ADDR'];?>
        <p>Powered by <a href="https://huaien.co/" target="_blank">Wyane`s Blog</a>. Since 2010.</p>
     </footer>
 </body>
