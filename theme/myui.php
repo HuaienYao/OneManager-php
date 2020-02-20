@@ -493,7 +493,7 @@
 	</div>
 <?php   }
     } ?>
-    <font text-align="center";color="#f7f7f9"><?php echo date("Y-m-d H:i:s")." ".getconstStr('Week')[date("w")]." ".$_SERVER['REMOTE_ADDR'];?></font>
+    <font style="text-align:center;color:#f7f7f9><?php echo date("Y-m-d H:i:s")." ".getconstStr('Week')[date("w")]." ".$_SERVER['REMOTE_ADDR'];?></font>
 </body>
 <footer>
        <p><?php echo date("Y-m-d H:i:s")." ".getconstStr('Week')[date("w")]." ".$_SERVER['REMOTE_ADDR'];?></p>
