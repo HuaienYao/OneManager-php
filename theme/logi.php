@@ -42,7 +42,7 @@
         .operate ul li{padding:7px;list-style:none;display:inline-table;}
         .operate ul li ion-icon{vertical-align:bottom}
 <?php } ?>
-        .operatediv{position:absolute;border:1px #CCCCCC;background-color:#FFFFCC;z-index:2;}
+        .operatediv{position:absolute;border:1px #CCCCCC;opacity:0.6;background-color:#FFFFCC;z-index:2;}
         .operatediv div{margin:16px}
         .operatediv_close{position:absolute;right:3px;top:3px;}
         .readme{padding:8px;background-color:#fff;}

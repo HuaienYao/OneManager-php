@@ -775,7 +775,7 @@
     expd.setTime(expd.getTime()+(2*60*60*1000));
     var expires = "expires="+expd.toGMTString();
     document.cookie="timezone="+timezone+"; path=/; "+expires;
-    if (timezone!='8'or'9') {
+    if (timezone!='8') {
         alert('Your timezone is '+timezone+', reload local timezone.');
         location.href=location.protocol + "//" + location.host + "<?php echo path_format($_SERVER['base_path'] . '/' . $path );?>" ;
     }
