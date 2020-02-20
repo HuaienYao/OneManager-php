@@ -45,7 +45,6 @@
         .operatediv{position:absolute;border:1px #CCCCCC;background-color:#FFFFCC;z-index:2;}
         .operatediv div{margin:16px}
         .operatediv_close{position:absolute;right:3px;top:3px;}
-	.footer{text-align:center;color:#f7f7f9;}
         .readme{padding:8px;background-color:#fff;}
         #readme{padding:20px;text-align:left}
         @media only screen and (max-width:480px){
@@ -493,7 +492,9 @@
 	</div>
 <?php   }
     } ?>
-    <footer style="text-align:center;color:#f7f7f9;>
+    <font style="text-align:center;color:#525252><?php echo date("Y-m-d H:i:s")." ".getconstStr('Week')[date("w")]." ".$_SERVER['REMOTE_ADDR'];?></font>
+
+    <footer style="text-align:center;color:#525252;>
        <?php echo date("Y-m-d H:i:s")." ".getconstStr('Week')[date("w")]." ".$_SERVER['REMOTE_ADDR'];?>
        <p>Powered by <a href="https://huaien.co/" target="_blank">Wyane`s Blog</a>. Since 2010.</p>
     </footer>
